@@ -60,3 +60,4 @@ CTest*
 
 # generated files by cargo
 bindings/rust/target/
+bindings/rust/Cargo.lock

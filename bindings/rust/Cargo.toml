@@ -1,8 +1,12 @@
 [package]
 name = "zenroom"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Danilo Spinella <oss@danyspin97.org>"]
 edition = "2018"
+
+[dependencies]
+lazy_static = "1.4"
+thiserror = "1.0"
 
 [build-dependencies]
 bindgen = "0.53.1"
